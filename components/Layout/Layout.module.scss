@@ -1,0 +1,94 @@
+.pageWrap {
+  width: 100%;
+  position: relative;
+}
+
+.componentsWrap {
+  position: relative;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+  overflow: hidden;
+}
+
+// BACKROUND CIRCLES
+.bgCircle1 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: -40%;
+  background: radial-gradient(
+    rgba(45, 212, 191, 0.3) 1%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  border-radius: 50%;
+  pointer-events: none;
+  animation-name: circle1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  @keyframes circle1 {
+    0% {
+      top: 0%;
+      left: -30%;
+    }
+    50% {
+      top: -5%;
+      left: -40%;
+    }
+    100% {
+      top: -10%;
+      left: 0;
+    }
+  }
+  @media (min-width: 768px) {
+    width: 1000px;
+    height: 1000px;
+    max-width: 1000px;
+    max-height: 1000px;
+    top: -15%;
+    left: -20%;
+  }
+}
+
+.bgCircle2 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(99, 102, 241, 0.3) 1%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  border-radius: 50%;
+  pointer-events: none;
+  animation-name: circle2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  @keyframes circle2 {
+    0% {
+      top: 20%;
+      right: -30%;
+    }
+    50% {
+      top: 10%;
+      right: -40%;
+    }
+    100% {
+      top: 5%;
+      right: 0;
+    }
+  }
+  @media (min-width: 768px) {
+    width: 1000px;
+    height: 1000px;
+    max-width: 1000px;
+    max-height: 1000px;
+    top: -20%;
+    right: -20%;
+  }
+}
