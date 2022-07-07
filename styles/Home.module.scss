@@ -1,6 +1,6 @@
 .hero {
   text-align: center;
-  padding: 8rem 0 4rem;
+  padding: 8rem 1.6rem 4rem 1.6rem;
   .heroInfoWrap {
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@
 .tech {
   max-width: 768px;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 1.6rem;
   .techItems {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
