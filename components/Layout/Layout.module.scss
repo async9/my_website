@@ -12,22 +12,25 @@
 
 // BACKROUND CIRCLES
 .bgCircle1 {
-  width: 500px;
-  height: 500px;
+  width: 800px;
+  height: 800px;
   position: absolute;
   top: 0;
   left: -40%;
   background: radial-gradient(
-    rgba(45, 212, 191, 0.3) 1%,
+    rgba(45, 212, 190, 0.5) 1%,
     rgba(255, 255, 255, 0) 60%
   );
+  // background: radial-gradient(
+  //   rgba(45, 212, 191, 0.3) 1%,
+  //   rgba(255, 255, 255, 0) 60%
+  // );
   border-radius: 50%;
   pointer-events: none;
   animation-name: circle1;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  z-index: 8;
   @keyframes circle1 {
     0% {
       top: 0%;
@@ -53,23 +56,27 @@
 }
 
 .bgCircle2 {
-  width: 500px;
-  height: 500px;
+  width: 800px;
+  height: 800px;
   position: absolute;
   top: 20%;
   right: 0;
   background: radial-gradient(
     circle at center,
-    rgba(99, 102, 241, 0.3) 1%,
+    rgba(99, 102, 241, 0.5) 1%,
     rgba(255, 255, 255, 0) 60%
   );
+  // background: radial-gradient(
+  //   circle at center,
+  //   rgba(99, 102, 241, 0.3) 1%,
+  //   rgba(255, 255, 255, 0) 60%
+  // );
   border-radius: 50%;
   pointer-events: none;
   animation-name: circle2;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  z-index: 8;
   @keyframes circle2 {
     0% {
       top: 20%;

@@ -25,6 +25,9 @@ const Header = () => {
         <a className={s.navLink} href='#'>
           Contact
         </a>
+
+        <div className={s.bgCircle1}></div>
+        <div className={s.bgCircle2}></div>
       </nav>
 
       <button onClick={menuHandler} className={s.burger}>

@@ -1,9 +1,12 @@
 :root {
   font-size: 10px; // 1rem = 10px
   // COLORS
-  --cyan: #2dd4bf;
   --blackBg: #111827;
   --white: #ffffff;
+  --cyan-lighter: #aaffec;
+  --cyan-light: #79ffe1;
+  --cyan: #50e3c2;
+  --cyan-dark: #29bc9b;
 }
 
 // RESET
@@ -52,6 +55,7 @@ textarea {
   font-family: inherit;
 }
 
+h1,
 h2,
 h3,
 h4,
@@ -68,6 +72,7 @@ a {
   font-size: 5.5rem;
   font-weight: 900;
   color: var(--white);
+  z-index: 2;
   @media (min-width: 1024px) {
     font-size: 8.5rem;
   }

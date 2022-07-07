@@ -23,12 +23,12 @@ const Home = () => {
             </p>
             <div className={s.heroLinks}>
               <div className={s.linkWrap}>
-                <a className={s.cvLink} href='#'>
+                <a className={s.cvLink} href='#' target='_blanck'>
                   CV link
                 </a>
               </div>
               <div className={s.linkWrap}>
-                <a className={s.githubLink} href='#'>
+                <a className={s.githubLink} href='#' target='_blanck'>
                   GitHub
                 </a>
               </div>

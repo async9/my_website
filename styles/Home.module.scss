@@ -1,12 +1,12 @@
 .hero {
   text-align: center;
-  padding: 8rem 1.6rem 4rem 1.6rem;
+  padding: 6rem 1.6rem 4rem 1.6rem;
   .heroInfoWrap {
     display: flex;
     flex-direction: column;
     align-items: center;
     .heroImageWrap {
-      border: solid 6px var(--cyan);
+      // border: solid 6px #fff;
       border-radius: 50%;
       overflow: hidden;
       margin: 2rem 0;
