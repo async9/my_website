@@ -9,7 +9,7 @@ const Home = () => {
       <Head></Head>
       <section className={s.hero}>
         <h1 className='h1'>
-          Front-end <br /> Web Developer
+          Web <br /> Developer
         </h1>
         <div className={s.heroInfoWrap}>
           <div className={s.heroImageWrap}>
@@ -21,10 +21,17 @@ const Home = () => {
               Building custom Web Apps & Websites from scratch to Your heart’s
               desire… <br /> That’s what I do!
             </p>
-            <div className={s.linksWrap}>
-              <a className={s.cvLink} href='#'>
-                CV link
-              </a>
+            <div className={s.heroLinks}>
+              <div className={s.linkWrap}>
+                <a className={s.cvLink} href='#'>
+                  CV link
+                </a>
+              </div>
+              <div className={s.linkWrap}>
+                <a className={s.githubLink} href='#'>
+                  GitHub
+                </a>
+              </div>
             </div>
           </div>
         </div>

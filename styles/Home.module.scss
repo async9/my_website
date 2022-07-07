@@ -8,26 +8,40 @@
     .heroImageWrap {
       border: solid 6px var(--cyan);
       border-radius: 50%;
+      overflow: hidden;
       margin: 2rem 0;
-      img {
-        border-radius: 50%;
-      }
     }
     .heroInfo {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      .linksWrap {
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
-        .cvLink {
-          font-size: 1.6rem;
-          font-weight: 600;
-          color: #1e2e3b;
-          padding: 1rem 4rem;
-          background: var(--cyan);
-          border-radius: 20px;
+      .heroLinks {
+        .linkWrap {
+          display: flex;
+          justify-content: center;
+          margin-top: 2rem;
+          .cvLink {
+            width: 100%;
+            font-size: 1.6rem;
+            font-weight: 600;
+            // color: #1e2e3b;
+            color: #000000;
+            padding: 1rem 4rem;
+            background: var(--white);
+            border-radius: 10px;
+            border: 1px solid #111;
+          }
+          .githubLink {
+            width: 100%;
+            font-size: 1.6rem;
+            font-weight: 600;
+            // color: #1e2e3b;
+            color: #f1f1f1;
+            padding: 1rem 4rem;
+            background: #000000;
+            border-radius: 10px;
+            border: 1px solid #333;
+          }
         }
       }
     }
@@ -40,9 +54,8 @@
   padding: 2rem 0;
   .techItems {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 1rem;
-    row-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3rem;
     .icon {
       display: flex;
       flex-direction: column;
